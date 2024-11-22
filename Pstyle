@@ -1,0 +1,201 @@
+<html><head>
+  <title>Pstyle Animation</title>
+  <style>
+    body {
+      background-image: url("https://i.imgur.com/hzc09Ra.png");
+      background-size: cover;
+    }
+
+   header {
+    background-color: #;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .box {
+      width: 420px;
+      height: 145px;
+      margin: 15px;
+      background-color:#1b1b1b ;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .box img {
+      max-width: 100%;
+      max-height: 100%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+
+ <body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@1,700&display=swap');
+*{padding:0; margin:0; font-family: 'Agbalumo'; color:#fff; text-shadow: 0 0 5px #f00; font-size:20px; }
+
+.Mesaj {
+  margin:20px;
+  float: left;
+  padding:5px;
+  width: 95%;
+    max-width: 95%;
+    height:30px;
+    text-align: center;
+    background: url('https://xatimg.com/image/eQclCkaKDJdZ.gif');
+    background-repeat:repeat;
+    background-size:1850px 50px;
+    border-radius:7px;
+    display:block;
+    border: 2px solid #525252;
+    position:relative;
+    box-shadow: rgba(82, 82, 82, 0.1) 0px 8px 24px, rgba(82, 82, 82, 0.1) 0px 16px 56px, rgba(82, 82, 82 0.1) 0px 24px 80px;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+
+<div class="Mesaj">
+
+
+
+<marquee>
+       ◦•●◉ Pstyle Animation ◉●•◦
+</marquee>
+
+           
+  </div>
+
+  
+
+</body></html>
+ 
+
+
+  
+<header> <h1 style="text-align: center;">1000xats</h1>
+</header>
+  
+  <div class="container">
+    
+ <div class="box">
+       <h3>Pstyle-1</h3>
+        <img src="https://i.imgur.com/dGERWu1.gif" alt="Image 1">
+      </a>
+
+</div>  
+
+ <div class="box">
+       <h3>Pstyle-2</h3>
+        <img src="https://i.imgur.com/OftJ7YR.gif" alt="Image 1">
+      </a>
+
+</div>  
+
+
+<div class="box">
+      <h3>Pstyle-3</h3>
+        <img src="https://i.imgur.com/OQOqD42.gif" alt="Image 1">
+      </a>
+
+</div>  
+</div>  
+   
+<div class="container">
+
+
+<div class="box">
+      <h3>Pstyle-4</h3>
+        <img src="https://i.imgur.com/TYwpoqb.gif" alt="Image 1">
+      </a>
+
+</div>  
+
+<div class="box">
+      <h3>Pstyle-5</h3>
+        <img src="https://i.imgur.com/qKCHjwZ.gif" alt="Image 1">
+      </a>
+
+</div>  
+
+   
+
+<div class="box">
+      <h3>Pstyle-6</h3>
+        <img src="https://i.imgur.com/nhgnb4R.gif" alt="Image 1">
+      </a>
+
+</div>  
+
+</div>  
+
+  <div class="container">
+    
+ <div class="box">
+       <h3>Pstyle-7</h3>
+        <img src="https://i.imgur.com/9PsXdB8.png" alt="Image 1">
+      </a>
+
+</div>  
+
+ <div class="box">
+       <h3>Pstyle-8</h3>
+        <img src="https://i.imgur.com/9PsXdB8.png" alt="Image 1">
+      </a>
+
+</div>  
+
+
+<div class="box">
+      <h3>Pstyle-9</h3>
+        <img src="https://i.imgur.com/9PsXdB8.png" alt="Image 1">
+      </a>
+
+</div>  
+</div>  
+    
+  <div class="container">
+    
+ <div class="box">
+       <h3>Pstyle-10</h3>
+        <img src="https://i.imgur.com/9PsXdB8.png" alt="Image 1">
+      </a>
+
+</div>  
+
+ <div class="box">
+       <h3>Pstyle-11</h3>
+        <img src="https://i.imgur.com/9PsXdB8.png" alt="Image 1">
+      </a>
+
+</div>  
+
+
+<div class="box">
+      <h3>Pstyle-12</h3>
+        <img src="https://i.imgur.com/9PsXdB8.png" alt="Image 1">
+      </a>
+
+</div>  
+</div>  
+    
+
+</div></body></html>
