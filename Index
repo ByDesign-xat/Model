@@ -98,12 +98,12 @@
 
         .avatar-container {
             position: absolute;
-            top: 50px;
+            top: 70px;
             left: 50%;
             transform: translateX(-50%);
             width: 150px;
             height: 150px;
-            border-radius: 50%;
+            border-radius: 5%;
             overflow: hidden;
             border: 5px solid #000001; /* negru */
             box-shadow: 0 0 15px rgba(168, 168, 168, 0.7); /* Glow albastru */
