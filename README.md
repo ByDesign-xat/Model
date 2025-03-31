@@ -1,4 +1,3 @@
-
 <!-- Copyright Notice
     // All images and code contained in this project are the sole property of xDesignx (1515147447).
     // They may not be used, copied, or redistributed in any form unless purchased directly from xDesignx (1515147447).
