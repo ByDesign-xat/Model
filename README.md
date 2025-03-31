@@ -301,7 +301,7 @@
  
  
  
-</script></head><body> </div> </div> <style> </div> </div> <style> <!-- body { background:url() repeat-x, url('') }*{ cursor:url(https://xatimg.com/image/qcge7iRhO3IU.png),auto} --> <!-- ByDesign, Stop Copyright --> 
+</script><<body><style> </div> </div> <style> <!-- body { background:url() repeat-x, url('') }*{ cursor:url(https://xatimg.com/image/qcge7iRhO3IU.png),auto} --> <!-- ByDesign, Stop Copyright --> 
 
 
 
