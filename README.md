@@ -224,20 +224,20 @@
         </div>
         <div class="info-cards">
     <div class="info-card">
-        <h3>Despre mine</h3>
-        <p>Ma numesc Dedo, am 31 de ani și sunt grafic designer. Îmi place muzica și mă specializez în crearea de GIF-uri avatar, PcBack și PstyleGif pe xat.com.</p>
+        <h3>About me</h3>
+        <p>My name is ๖ۣۜBʏDᴇsɪɢɴۣۜ -I specialize in creating avatar GIFs xat.com.</p>
     </div>
     <div class="info-card">
         <h3>Roluri curente</h3>
-        <p>Sunt activ pe xat.com, oferindu-mi expertiza în design grafic. Sunt pasionat de personalizarea profilurilor utilizatorilor.</p>
+        <p>I am active on xat.com/fondos</p>
     </div>
     <div class="info-card">
         <h3>Contact</h3>
-        <p>Pentru orice colaborări, mă poți contacta în chat privat la ID-ul: Dedo (1557730119).</p>
+        <p>You can contact me via private chat at the ID: xDesignx (1515147447).</p>
     </div>
 </div>
 <div class="footer-text">
-    <p>&copy; 2024 Dedo. Toate drepturile rezervate.</p>
+    <p>&copy; 2024 xDesignx. All rights reserved.</p>
 </div>
 </body>
 </html>
