@@ -237,7 +237,6 @@
 <div class="footer-text">
     <p>&copy; 2024 xDesignx. All rights reserved.</p>
 </div>
-</body>
 
 
 
