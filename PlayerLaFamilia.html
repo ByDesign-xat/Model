@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ByDesign">
-    <meta name="keywords" content="ByDesign">
     <title>ByDesign</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -15,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://i.imgur.com/7V5Kf1T.gif') no-repeat center center fixed;
+    background: url('https://xatimg.com/image/fuSCfGdhowZL.png') no-repeat center center fixed;
     background-size: cover;
     color: #e0e0e0;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
@@ -66,12 +62,12 @@ body {
 .current-info p {
     margin: 8px 0;
     font-size: 1.1em;
-    color: #1dd4ce;
+    color: #ffffff;
 }
 
 .current-info span {
     font-weight: bold;
-    color: #ffe0b5;
+    color: #aaaaaa;
 }
 
 #audioVisualizer {
@@ -80,7 +76,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: inset 0 0 10px rgb(37, 233, 255);
+    box-shadow: inset 0 0 10px rgb(170, 170, 170);
 }
 
 .controls {
@@ -92,8 +88,8 @@ body {
 }
 
 .player-button {
-    background-color: #f5a123ce;
-    color: rgb(195, 240, 255);
+    background-color: #c2c2c2ce;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
     padding: 5px 15px;
@@ -106,29 +102,29 @@ body {
 }
 
 .player-button:hover {
-    background-color: #ffe2a4;
+    background-color: #e6e6e6;
     color: #0b0b0b;
     transform: translateY(-2px);
     box-shadow: 3px 3px 25px rgba(255, 255, 255, 0.4);
 }
 
 .player-button:active {
-    background-color: #aeffb2;
+    background-color: #ededed;
     transform: translateY(0);
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
 }
 
 .player-button.playing {
-    background-color: #c13228;
+    background-color: #717171;
 }
 
 .player-button.playing:hover {
-    background-color: #ff837a;
+    background-color: #aaaaaa;
     color: #181818;
 }
 
 .player-button.playing:active {
-    background-color: #c13228;
+    background-color: #717171;
 }
 
 .volume-control {
@@ -141,7 +137,7 @@ body {
 
 .volume-control label {
     font-size: 1.1em;
-    color: #ffe3ab;
+    color: #e1e1e1;
 }
 
 #volumeSlider {
@@ -160,7 +156,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00e5ff;
+    background: #bdbdbd;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background 0.2s ease, transform 0.2s ease;
@@ -170,7 +166,7 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #00e5ff;
+    background: #bdbdbd;
     cursor: pointer;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: background 0.2s ease, transform 0.2s ease;
@@ -189,7 +185,7 @@ body {
 .status-message {
     margin-top: 20px;
     font-size: 1.1em;
-    color: #ffe2a4;
+    color: #d1d1d1;
     font-style: italic;
 }
 
@@ -205,7 +201,7 @@ body {
 }
 
 .song-history h2 {
-    color: #23c5bd;
+    color: #9f9f9f;
     font-size: 1.5em;
     margin-bottom: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -306,7 +302,7 @@ body {
 </head>
 <body>
     <div class="radio-player-container">
-        <img src="https://i.imgur.com/ir1Fv0O.png" alt="Titulo">
+        <img src="https://xatimg.com/image/Meipvs4gPmsL.png" alt="Titulo">
         <div class="now-playing-section">
             <img id="albumArt" src="https://i.imgur.com/AN93Fcs.png" alt="Album Art" class="album-art">
             <div class="current-info">
@@ -339,7 +335,7 @@ body {
         <button
             id="chatButton"
             class="floating-button bg-blue-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
-                hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-75"
+                hover:bg-Black-700 focus:outline-none focus:ring-2 focus:ring-Black-500 focus:ring-opacity-75"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                 <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
@@ -350,7 +346,7 @@ body {
         <button
             id="SiteButton"
             class="floating-button bg-red-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
-                hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-75"
+                hover:bg-Black-800 focus:outline-none focus:ring-2 focus:ring-Black-600 focus:ring-opacity-75"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                 <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
@@ -430,9 +426,9 @@ function drawVisualizer() {
         const barHeight = dataArray[i] / 2;
 
         const gradient = canvasCtx.createLinearGradient(0, audioVisualizer.height, 0, 0);
-        gradient.addColorStop(0, '#673ab7');
-        gradient.addColorStop(0.5, '#00e5ff');
-        gradient.addColorStop(1, '#FFC107');
+        gradient.addColorStop(0, '#161616');
+        gradient.addColorStop(0.5, '#aaaaaa');
+        gradient.addColorStop(1, '#dddddd');
 
         canvasCtx.fillStyle = gradient;
         canvasCtx.fillRect(x, audioVisualizer.height - barHeight, barWidth, barHeight);
@@ -541,7 +537,7 @@ audio.addEventListener('waiting', () => {
 });
 
 audio.addEventListener('stalled', () => {
-    statusDisplay.textContent = 'Connection stalled. Retrying...';
+    statusDisplay.textContent = 'Conexiunea pierduta... Se reîncearcă...';
 });
 
 fetchRadioInfo();
@@ -595,7 +591,7 @@ async function fetchRadioInfo() {
     }
 }
 
-const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
+const colors = ["#d1d1d1", "#a1a1a1", "#ffffff", "#4d4f4e", "#000000"];
 
 const numBalls = 50;
 const balls = [];
@@ -639,7 +635,7 @@ for (let i = 0; i < numBalls; i++) {
         const SiteButton = document.getElementById('SiteButton');
 
         chatButton.addEventListener('click', () => {
-            const fchatUrl = 'https://uxat.eu/';
+            const chatUrl = 'https://uxat.eu/';
             window.open(chatUrl, '_blank');
         });
 
