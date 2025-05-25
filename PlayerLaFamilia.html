@@ -339,7 +339,7 @@ body {
         <button
             id="chatButton"
             class="floating-button bg-blue-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
-                hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
+                hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-75"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                 <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
@@ -349,8 +349,8 @@ body {
 
         <button
             id="SiteButton"
-            class="floating-button bg-red text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
-                hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-75"
+            class="floating-button bg-red-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
+                hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-75"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                 <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
@@ -590,7 +590,7 @@ async function fetchRadioInfo() {
         songTitleDisplay.textContent = 'Failed to load';
         djNameDisplay.textContent = 'Failed to load';
         listenersDisplay.textContent = 'Failed to load';
-        albumArtDisplay.src = 'https://technoplayerserver.net/cp/musiclibrary/nowplay_radioxatoficial.png';
+        albumArtDisplay.src = 'https://i.imgur.com/AN93Fcs.png';
         historyList.innerHTML = '<li>Error loading history.</li>';
     }
 }
@@ -639,12 +639,12 @@ for (let i = 0; i < numBalls; i++) {
         const SiteButton = document.getElementById('SiteButton');
 
         chatButton.addEventListener('click', () => {
-            const facebookUrl = 'https://www.facebook.com/people/Radio-Hispanohablante/61573727018441/';
+            const facebookUrl = 'https://uxat.eu/';
             window.open(chatUrl, '_blank');
         });
 
         SiteButton.addEventListener('click', () => {
-            const tiktokUrl = 'https://www.tiktok.com/@radiohispano';
+            const tiktokUrl = 'https://www.la-familia.fun/';
             window.open(SiteUrl, '_blank');
         });
 </script>
