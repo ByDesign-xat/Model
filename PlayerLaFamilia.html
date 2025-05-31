@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://xatimg.com/image/fuSCfGdhowZL.png') no-repeat center center fixed;
+    background: url('https://xatimg.com/image/TPb2kHhLyBsb.png') no-repeat center center fixed;
     background-size: cover;
     color: #e0e0e0;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
@@ -25,7 +25,7 @@ body {
     text-align: center;
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 650px;
+    max-width: 620px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -353,6 +353,17 @@ body {
             </svg>
             <span>Site</span>
         </button>
+		
+	    <button
+            id="DediButton"
+            class="floating-button bg-green-600 text-white font-bold py-3 px-6 rounded-full flex items-center space-x-2
+                hover:bg-Black-800 focus:outline-none focus:ring-2 focus:ring-Black-600 focus:ring-opacity-75"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path d="M12.525 2.166a9.962 9.962 0 0 1 1.666 4.336c-.026.007-.052.014-.078.021-.86.23-1.657.65-2.34 1.233-.683.583-1.24 1.29-1.657 2.08-.417.79-.683 1.66-.79 2.58-.107.92-.107 1.88-.001 2.81.106.93.362 1.81.765 2.62.403.81.95 1.52 1.633 2.12.683.6 1.46 1.05 2.34 1.34.88.29 1.81.43 2.76.43a9.962 9.962 0 0 0 4.336-1.666V12.525h-2.166a.75.75 0 0 1-.75-.75V8.875a.75.75 0 0 1 .75-.75h2.166V4.336a9.962 9.962 0 0 0-1.666-4.336z" />
+            </svg>
+            <span>Dedicatii</span>
+        </button>
     </div>
 <script>
     const audio = new Audio('https://radio.sonicpanel.ro/8132/stream');
@@ -633,6 +644,7 @@ for (let i = 0; i < numBalls; i++) {
 
         const chatButton = document.getElementById('chatButton');
         const SiteButton = document.getElementById('SiteButton');
+		const DediButton = document.getElementById('DediButton');
 
         chatButton.addEventListener('click', () => {
             const chatUrl = 'https://uxat.eu/';
@@ -642,6 +654,12 @@ for (let i = 0; i < numBalls; i++) {
         SiteButton.addEventListener('click', () => {
             const SiteUrl = 'https://www.la-familia.fun/';
             window.open(SiteUrl, '_blank');
+        });
+		
+		
+        DediButton.addEventListener('click', () => {
+            const DediUrl = 'https://www.la-familia.fun/';
+            window.open(DediUrl, '_blank');
         });
 </script>
 </body>
