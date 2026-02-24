@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <head>
     <title>ByDesign</title>
@@ -301,6 +302,7 @@ body {
     </style>
 </head>
 <body>
+    <script id='sonic_js' data-port='8132' src='https://radio.sonicpanel.ro/cp/widgets.js?r=758'></script>
     <div class="radio-player-container">
         <div class="now-playing-section">
             <img id="albumArt" src="https://i.imgur.com/AN93Fcs.png" alt="Album Art" class="album-art">
@@ -308,6 +310,8 @@ body {
                 <p>Acum Live: <span id="songTitle">Încărcare...</span></p>
                 <p>DJ: <span id="djName">Încărcare...</span></p>
                 <p>Ascultatori: <span id="listeners">Încărcare...</span></p>
+				<p>Radio: <span id="jd-station">LaFamilia</span></p>
+				<p>BPM: <span id="sonic_bitrate">Încărcare...</span></p>
             </div>
         </div>
 
@@ -374,7 +378,9 @@ const statusDisplay = document.getElementById('status');
 
 const songTitleDisplay = document.getElementById('songTitle');
 const djNameDisplay = document.getElementById('djName');
+const radioNameDisplay = document.getElementById('radioName');
 const listenersDisplay = document.getElementById('listeners');
+const bitrateDisplay = document.getElementById('bitrate');
 const historyList = document.getElementById('historyList');
 const albumArtDisplay = document.getElementById('albumArt');
 
