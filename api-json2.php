@@ -8,10 +8,11 @@ if (!isset($_GET['url'])) {
 
 $url = $_GET['url'];
 
-// Permite doar http și https
-$parsed = parse_url($url);
+// verificăm doar să fie http sau https
+$parts = parse_url($url);
 
-if (!$parsed || !in_array($parsed['scheme'], ['http','https'])) {
+if (!$parts || !isset($parts['scheme']) || 
+   !in_array($parts['scheme'], ['http','https'])) {
     echo json_encode(["error" => "Invalid URL"]);
     exit;
 }
@@ -19,7 +20,7 @@ if (!$parsed || !in_array($parsed['scheme'], ['http','https'])) {
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
 
 $response = curl_exec($ch);
 
@@ -30,3 +31,4 @@ if ($response === false) {
 }
 
 curl_close($ch);
+?>
